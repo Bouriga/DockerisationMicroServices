@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 kubectl create configmap postgres-config --from-literal=postgres.service.name=postgresql --from-literal=postgres.db.name=boutique
 kubectl get cm postgres-config -o json
 kubectl create secret generic db-security --from-literal=db.user.name=alibouriga --from-literal=db.user.password=password
