@@ -27,7 +27,7 @@ public class DataLoader implements CommandLineRunner {
     public void run(String... strings) throws Exception {
         ResponseEntity<ProductDto> productResponseEntity
                 = this.restTemplate.getForEntity(
-                "http:/order-service/api/products/{id}",
+                "http:/product-service/api/products/{id}",
                 ProductDto.class,
                 2
         );
