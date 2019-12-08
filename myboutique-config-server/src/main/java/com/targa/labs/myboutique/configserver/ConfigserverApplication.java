@@ -7,7 +7,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableConfigServer
 @SpringBootApplication
 public class ConfigserverApplication {
-    /*test pipeline push */
+
     public static void main(String[] args) {
         SpringApplication.run(ConfigserverApplication.class, args);
     }
