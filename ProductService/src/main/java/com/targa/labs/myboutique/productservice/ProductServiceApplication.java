@@ -10,7 +10,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableCircuitBreaker
 @SpringBootApplication
 public class ProductServiceApplication {
-/*test  push */
+/*test pipeline push */
 	public static void main(String[] args) {
 		SpringApplication.run(ProductServiceApplication.class, args);
 	}
